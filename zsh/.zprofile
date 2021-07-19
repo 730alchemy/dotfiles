@@ -1,4 +1,4 @@
-# $HOME/.my_profile defines commands that are scoped to a user only and not intended for generic
-# use across profiles. An example of what to include in .my_profile are path modifications for
-# applications not installed in the usual bin directories
-source $HOME/.my_profile
+# Use this .zprofile file to define commands that are appropriate for every user who installs this set of
+# dotfiles. Use $HOME/.zprofile to define commands that are scoped only to the specific user.
+# An example of what to include in $HOME/.zprofile are path modifications for applications the user installs.
+source $HOME/.zprofile
