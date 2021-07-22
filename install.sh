@@ -1,10 +1,23 @@
 #! /bin/bash
 
-rm -rf "$HOME/.config/zsh/external"
-ln -sf "$HOME/dotfiles/zsh/external" "$HOME/.config/zsh"
+# create directories and symlinks for zsh
+#
+mkdir -p "$DOT_ZSH"
+ln -sf "$DOT_REPO/zsh/.zshenv" "$HOME/"
+ln -sf "$DOT_REPO/zsh/.zshrc" "$DOT_ZSH"
+ln -sf "$DOT_REPO/zsh/.zprofile" "$DOT_ZSH"
+rm -rf "$DOT_ZSH/external"
+ln -sf "$DOT_REPO/zsh/external" "$DOT_ZSH"
 
-# create symlinks for zsh
-mkdir -p "$HOME/.config/zsh"
-ln -sf "$HOME/dotfiles/zsh/.zshenv" "$HOME/"
-ln -sf "$HOME/dotfiles/zsh/.zshrc" "$HOME/.config/zsh"
-ln -sf "$HOME/dotfiles/zsh/.zprofile" "$HOME/.config/zsh"
+# create directories and symlinks for vim
+#
+#mkdir -p "$DOT_VIM"
+ln -sf "$DOT_REPO/vim/.vimrc" "$HOME" 
+ln -hsf "$DOT_REPO/vim" "$HOME/.vim"
+
+
+# install vim packages
+#
+
+# install vim plugin manager
+#[ ! -f "$DOT_REPO/vim/autoload/plug.vim" ] \
