@@ -1,3 +1,6 @@
 [submodule "vim/pack/dist/start/vim-airline"]
 	path = vim/pack/dist/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline
+[submodule "vim/pack/dist/start/jedi-vim"]
+	path = vim/pack/dist/start/jedi-vim
+	url = https://github.com/davidhalter/jedi-vim.git
