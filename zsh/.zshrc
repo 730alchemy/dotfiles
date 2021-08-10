@@ -8,6 +8,9 @@ _comp_options+=(globdots)
 
 source $DOT_REPO/zsh/external/completion.zsh
 
+# enable iterm2 integration if available
+test -e /Users/mnorman/.config/zsh/.iterm2_shell_integration.zsh && source /Users/mnorman/.config/zsh/.iterm2_shell_integration.zsh || true
+
 ##
 #   ALIASES
 #
@@ -16,7 +19,7 @@ alias gc='git commit'
 alias gd='git diff'
 alias gf='git fetch'
 alias gs='git status'
-alias l='ls'
+alias l='ls -a'
 alias ll='ls -a'
 alias ls='ls -Glh'
 
