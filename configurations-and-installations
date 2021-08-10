@@ -10,7 +10,7 @@ Plugins installed in this repo
     - vim-airline
         - take a look at powerline
 
-Install plugins
+Installing VIM plugins
     - ~/.vim is the default location for vim plugins
         - install.sh creates a symbolic link from ~/.vim to ~/dotfiles/vim
     - use the vim package system and git submodules
@@ -27,5 +27,10 @@ Install plugins
 Plugin portal
     - https://vimawesome.com/
 
-vim configuration
+VIM configuration
     - tabs
+        set ai
+        set expandtab
+        set shiftwidth=4
+        set ts=4
+    - set backspace=indent,eol,start

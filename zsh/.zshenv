@@ -8,3 +8,10 @@ export DOT_ZSH="$DOT_HOME/zsh"
 
 # directory zsh uses to find configuration files
 export ZDOTDIR=$DOT_ZSH
+
+# History filepath
+export HISTFILE="$ZDOTDIR/.zhistory"
+# Maximum events for internal history
+export HISTSIZE=3000
+# Maximum events in history file
+export SAVEHIST=2000
