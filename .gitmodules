@@ -4,3 +4,9 @@
 [submodule "vim/pack/dist/start/jedi-vim"]
 	path = vim/pack/dist/start/jedi-vim
 	url = https://github.com/davidhalter/jedi-vim.git
+[submodule "vim/pack/dist/start/SimpylFold"]
+	path = vim/pack/dist/start/SimpylFold
+	url = https://github.com/tmhedberg/SimpylFold
+[submodule "vim/pack/dist/start/FastFold"]
+	path = vim/pack/dist/start/FastFold
+	url = https://github.com/Konfekt/FastFold
