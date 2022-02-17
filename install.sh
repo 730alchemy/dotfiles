@@ -1,4 +1,10 @@
 #! /bin/bash
+# ensure the following environment variables are set
+#   DOT_ZSH
+#   DOT_REPO
+#
+# ensure the following directories exist
+#   $HOME/.vim
 
 # create directories and symlinks for zsh
 #
@@ -13,7 +19,7 @@ ln -sf "$DOT_REPO/zsh/external" "$DOT_ZSH"
 #
 #mkdir -p "$DOT_VIM"
 ln -sf "$DOT_REPO/vim/.vimrc" "$HOME" 
-ln -hsf "$DOT_REPO/vim" "$HOME/.vim"
+ln -sf "$DOT_REPO/vim" "$HOME/.vim"
 
 
 # install vim packages
