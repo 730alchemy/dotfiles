@@ -28,7 +28,7 @@ alias ls='ls -Glh'
 #
 setopt appendhistory
 
-source $HOME/.zshrc_local
+source $HOME/.zshrc
 
 ##
 #   keep zsh-syntax-highlighting sourcing at the end of this file

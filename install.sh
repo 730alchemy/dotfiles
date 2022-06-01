@@ -1,7 +1,7 @@
 #! /bin/bash
 # ensure the following environment variables are set
-#   DOT_ZSH
-#   DOT_REPO
+#   DOT_ZSH - set to the same folder as DOT_ZSH in dotfiles/zsh/.zshenv
+#   DOT_REPO - set to the folder in which the dotfiles repo was cloned (e.g. ~/dotfiles)
 #
 # ensure the following directories exist
 #   $HOME/.vim
