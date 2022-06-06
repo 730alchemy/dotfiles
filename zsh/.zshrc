@@ -30,6 +30,9 @@ setopt appendhistory
 
 source $HOME/.zshrc
 
+# set colors for ls
+export LSCOLORS=gxfxcxdxbxegedabagacad
+
 ##
 #   keep zsh-syntax-highlighting sourcing at the end of this file
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
