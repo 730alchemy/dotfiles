@@ -21,6 +21,9 @@ ln -sf "$DOT_REPO/zsh/external" "$DOT_ZSH"
 ln -sf "$DOT_REPO/vim/.vimrc" "$HOME" 
 ln -sf "$DOT_REPO/vim" "$HOME/.vim"
 
+pushd "$DOT_ZSH"
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+popd
 
 # install vim packages
 #
