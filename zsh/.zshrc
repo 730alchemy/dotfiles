@@ -18,6 +18,7 @@ alias ga='git add'
 alias gc='git commit'
 alias gd='git diff'
 alias gf='git fetch'
+alias gl="git log --graph  --format='%C(bold blue)%h - %C(dim white)[%ar] %an - %C(dim green)%d%C(reset) - %C(white)%s'"
 alias gs='git status'
 alias l='ls -a'
 alias ll='ls -a'
