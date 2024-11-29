@@ -1,3 +1,5 @@
+# dotfiles
+clone this repo into the root of your home directory
 
 ## VIM
 Use vim with python 3 support
