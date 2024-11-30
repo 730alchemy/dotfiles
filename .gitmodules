@@ -1,12 +1,15 @@
-[submodule "vim/pack/dist/start/vim-airline"]
-	path = vim/pack/dist/start/vim-airline
+[submodule "home/user/.vim/pack/dist/start/vim-airline"]
+	path = home/user/.vim/pack/dist/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline
-[submodule "vim/pack/dist/start/jedi-vim"]
-	path = vim/pack/dist/start/jedi-vim
-	url = https://github.com/davidhalter/jedi-vim.git
-[submodule "vim/pack/dist/start/SimpylFold"]
-	path = vim/pack/dist/start/SimpylFold
-	url = https://github.com/tmhedberg/SimpylFold
 [submodule "vim/pack/dist/start/FastFold"]
 	path = vim/pack/dist/start/FastFold
+	url = https://github.com/Konfekt/FastFold
+[submodule "home/user/.vim/pack/dist/start/jedi-vim"]
+	path = home/user/.vim/pack/dist/start/jedi-vim
+	url = https://github.com/davidhalter/jedi-vim.git
+[submodule "home/user/.vim/pack/dist/start/SimpylFold"]
+	path = home/user/.vim/pack/dist/start/SimpylFold
+	url = https://github.com/tmhedberg/SimpylFold
+[submodule "home/user/.vim/pack/dist/start/FastFold"]
+	path = home/user/.vim/pack/dist/start/FastFold
 	url = https://github.com/Konfekt/FastFold
