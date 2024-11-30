@@ -25,6 +25,9 @@ alias ll='ls -a'
 alias ls='ls -Glh'
 alias dirsv='dirs -v'
 
+# alias to run any version of cursor in the apps folder
+alias cursor='exec $(ls ~/apps/cursor* -C) &'
+
 ##
 #   OPTIONS
 #
