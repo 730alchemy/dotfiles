@@ -1,5 +1,22 @@
 # Dotfiles
+
+What does this repo provide?
+
+This is for ZSH!!
 >Clone this repo into the root of your home directory
+
+## Installion Script
+
+#### Prepare To Run The Script
+
+1. ensure the following environment variables are set
+    - DOT_ZSH - must have the same value as DOT_ZSH in the file dotfiles/zsh/.zshenv
+    - DOT_REPO - set to the folder in which the dotfiles repo was cloned (e.g. ~/dotfiles)
+1. ensure the following directories exist
+    - $HOME/.vim
+
+
+#### Run The Script
 
 ## VIM
 
@@ -28,9 +45,10 @@ Use the vim package system and git submodules
 
 - https://git-scm.com/book/en/v2/Git-Tools-Submodules
 - https://medium.com/@paulodiovani/installing-vim-8-plugins-with-the-native-pack-system-39b71c351fea
+- to add a vim package run "git submodule add {package url} {target folder}
 
 #### Procedure
-- cd to ~/dotfiles/vim/pack/dist/start
+- cd to ~/dotfiles/home/user/.vim/pack/dist/start
 - git submodule add https://****
 - if the submodule includes other submodules, git update and init recursively
     - cd to the submodule

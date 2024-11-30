@@ -13,7 +13,7 @@ map <space> /
 set so=7
 set backspace=indent,eol,start
 
-colorscheme delek
+""colorscheme delek
 syntax on
 
 ""
