@@ -1,27 +1,23 @@
 #! /bin/bash
-# ensure the following environment variables are set
+#
+# pre-conditions for running this script
 #   DOT_ZSH - set to the same folder as DOT_ZSH in dotfiles/zsh/.zshenv
 #   DOT_REPO - set to the folder in which the dotfiles repo was cloned (e.g. ~/dotfiles)
-#
-# ensure the following directories exist
-#   $HOME/.vim
-
-# create directories and symlinks for zsh
-#
+#   $HOME/.vim - directory exists
 
 # verify environment variables are set
 : "${DOT_ZSH:?Error: DOT_ZSH is not set. Exiting.}"
 : "${DOT_REPO:?Error: DOT_REPO is not set. Exiting.}"
 
+# create directories and symlinks for zsh
+
 mkdir -p "$DOT_ZSH"
-
 rm -rf "$DOT_ZSH/external"
-
 ln -sfvt "$HOME" "$DOT_REPO/zsh/.zshenv"
 ln -sfvt "$DOT_ZSH" "$DOT_REPO/zsh/.zshrc" "$DOT_REPO/zsh/.zprofile" "$DOT_REPO/zsh/external"
 
 # create directories and symlinks for vim
-#
+
 ln -sfvt "$HOME" "$DOT_REPO/vim/.vimrc"
 
 if [ ! -d "$DOT_ZSH/zsh-syntax-highlighting" ]; then
@@ -34,7 +30,7 @@ fi
 
 # install vim packages
 echo "updating submodules"
-git submodule update --init --recursive --remote
+git submodule update --init --remote
 echo "... done updating submodules"
 
 # install vim plugin manager
