@@ -1,5 +1,7 @@
 # Dotfiles
 
+Mention ZSH
+
 What does this repo provide?
 
 This is for ZSH!!
@@ -9,14 +11,16 @@ This is for ZSH!!
 
 #### Prepare To Run The Script
 
-1. ensure the following environment variables are set
-    - DOT_ZSH - must have the same value as DOT_ZSH in the file dotfiles/zsh/.zshenv
-    - DOT_REPO - set to the folder in which the dotfiles repo was cloned (e.g. ~/dotfiles)
-1. ensure the following directories exist
-    - $HOME/.vim
 
+- DOT_ZSH - must have the same value as DOT_ZSH in the file dotfiles/zsh/.zshenv
+- DOT_REPO - set to the folder in which the dotfiles repo was cloned (e.g. ~/dotfiles)
+- $HOME/.vim - directory must exist
 
 #### Run The Script
+- run the script in a zsh shell
+
+#### After running the script
+* restart the terminal to use node and npm
 
 ## VIM
 

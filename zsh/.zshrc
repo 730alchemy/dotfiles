@@ -20,13 +20,14 @@ alias gd='git diff'
 alias gf='git fetch'
 alias gl="git log --graph  --format='%C(bold blue)%h - %C(dim white)[%ar] %an - %C(dim green)%d%C(reset) - %C(white)%s'"
 alias gs='git status'
-alias l='ls -a'
-alias ll='ls -a'
+alias l='ls -vAF'
+alias ll='l'
 alias ls='ls -Glh'
 alias dirsv='dirs -v'
 
 # aliases to run AppImages in the apps folder
-alias cursor='exec $(ls ~/apps/cursor* -C) &'
+alias cursor='nohup $(ls ~/apps/cursor* -C) . &'
+#alias cursor='nohup exec $(ls ~/apps/cursor* -C) . &'
 alias obsidian='exec $(ls ~/apps/Obsidian-* -C) &'
 
 ##
