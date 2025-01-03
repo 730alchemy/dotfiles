@@ -27,7 +27,7 @@ alias gl="git log --graph  --format='%C(bold blue)%h - %C(dim white)[%ar] %an - 
 alias gs='git status'
 alias l='ls -vAF'
 alias ll='l'
-alias ls='ls -Glh'
+alias ls='ls -Glh --color=auto'
 alias dirsv='dirs -v'
 
 # aliases to run AppImages in the apps folder
