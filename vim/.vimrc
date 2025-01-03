@@ -21,8 +21,8 @@ syntax on
 ""
 set ai
 set expandtab
-set shiftwidth=4
-set ts=4
+set shiftwidth=2
+set ts=2
 
 ""
 ""  PLUGIN CONFIGURATION
