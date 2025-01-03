@@ -1,12 +1,17 @@
 fpath=($ZDOTDIR/external $fpath)
 
-autoload -Uz prompt_setup; prompt_setup
+#autoload -Uz prompt_setup; prompt_setup
 autoload -Uz compinit; compinit
 
 # Autocomplete hidden files
 _comp_options+=(globdots)
 
 source $DOT_REPO/zsh/external/completion.zsh
+
+# configure prompt
+source $DOT_REPO/zsh/external/git-prompt.zsh/git-prompt.zsh
+source $DOT_REPO/zsh/my_multiline_prompt.zsh
+ZSH_GIT_PROMPT_SHOW_STASH=1
 
 # enable iterm2 integration if available
 test -e /Users/mnorman/.config/zsh/.iterm2_shell_integration.zsh && source /Users/mnorman/.config/zsh/.iterm2_shell_integration.zsh || true
